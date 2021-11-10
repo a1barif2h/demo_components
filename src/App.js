@@ -1,15 +1,15 @@
 import './App.css';
-// import DragAndDropColumnsTable from './compnents/DragAndDropColumnsTable';
-import ColAndRowDragAndDrop from './compnents/ColAndRowDragAndDrop';
+import NotificationPanel from './compnents/Notification';
 
 function App() {
   return (
     <div>
-      <h1 style={{textAlign: 'center'}}>Drag and Drop Row in Table</h1>
+      <h1 style={{textAlign: 'center'}}>Notification</h1>
       {/* <DragAndDropTable /> */}
       {/* <DragAndDropColumnsTable /> */}
       {/* <Demo /> */}
-      <ColAndRowDragAndDrop />
+      {/* <ColAndRowDragAndDrop /> */}
+      <NotificationPanel />
     </div>
   );
 }
